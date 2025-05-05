@@ -74,7 +74,7 @@ body {
     margin: 0 auto;
     padding: 0.5in;
     background-image: url('https://acortar.link/WlzypY');
-    background-size: cover;
+    background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
