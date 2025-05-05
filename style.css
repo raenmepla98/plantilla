@@ -102,7 +102,7 @@ header address {
 header span,
 header img {
     display: block;
-    float: right;
+    float: left;
     margin: 0 0 1em 1em;
     max-height: 25%;
     max-width: 60%;
