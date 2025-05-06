@@ -170,12 +170,19 @@ table.balance:after {
 }
 
 /* table meta */
-table.meta th {
-    width: 40%;
+table.meta {
+    width: 100%;
+    table-layout: fixed;
+}
+
+table.meta th
+{
+    width: 120px;
+    white-space: nowrap;
 }
 
 table.meta td {
-    width: 60%;
+    width: auto;
 }
 
 /* table items */
