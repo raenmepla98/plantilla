@@ -46,7 +46,9 @@ html {
 }
 
 p {
-    font-size: 85%; 
+    font-size: 85%;
+    line-height: 2;
+    text-align: justify;
 }
 .page {
     height: 100%;
