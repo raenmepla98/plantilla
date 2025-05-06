@@ -45,8 +45,9 @@ html {
     cursor: default;
 }
 
-
-
+p {
+    font-size: 85%; 
+}
 .page {
     height: 100%;
     background-image: url('https://acortar.link/aZeMl7');
