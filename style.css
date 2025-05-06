@@ -83,7 +83,7 @@ body {
 
 /* header */
 header {
-    margin: 50 0 2em;
+    margin: 90 0 2em;
     overflow: hidden; /* Añadido para manejar el colapso del margen superior */
 }
 
