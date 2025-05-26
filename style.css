@@ -75,7 +75,7 @@ header {
 
 /* Ajuste exclusivo para info-table */
 .info-table .meta {
-    font-size: 100%;
+    font-size: 90%;
     width: 100%;
     margin: 0.5em 0 0%;
     table-layout: auto; /* Permite que el th se ajuste al contenido */
