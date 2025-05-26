@@ -64,13 +64,34 @@ p {
 }  
 
 .content {
-    margin-top: 150px; /* Ajusta este valor al margen superior que necesites */
+    margin-top: 70px; /* Ajusta este valor al margen superior que necesites */
   }
   
 /* header */
 header {
     margin: 0 0 3em;
     overflow: hidden; /* Añadido para manejar el colapso del margen superior */
+}
+
+/* Ajuste exclusivo para info-table */
+.info-table .meta {
+    width: 100%;
+    margin: 0.5em 0 0%;
+    table-layout: auto; /* Permite que el th se ajuste al contenido */
+}
+  
+.info-table .meta th {
+    white-space: nowrap;      /* Evita que se divida en líneas */
+    width: 1%;                /* Toma solo el ancho necesario */
+}
+  
+.info-table .meta td {
+    width: auto;              /* Ocupa el espacio restante */
+}
+  
+  /* Clase para centrar celdas */
+.centered {
+    text-align: center;
 }
 
 header address {
@@ -81,13 +102,12 @@ header address {
     margin: 0 1em 1em 0;
 }
 
-
 /* article */
 article,
 article address,
 table.meta,
 table.inventory {
-    margin: 0 0 3em;
+    margin: 0 0 2rem;
     clear: both;
 }
 
@@ -111,8 +131,8 @@ article address {
 /* table meta & balance */
 table.meta,
 table.balance {
-    float: right;
-    width: 36%;
+    float: left;
+    width: auto;
 }
 
 table.meta:after,
@@ -128,7 +148,7 @@ table.meta {
     table-layout: fixed;
 }
 table.meta th {
-    width: 125px;
+    width: 100px;
     white-space: nowrap;
 }
 
