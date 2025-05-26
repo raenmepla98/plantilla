@@ -64,7 +64,7 @@ p {
 }  
 
 .content {
-    margin-top: 70px; /* Ajusta este valor al margen superior que necesites */
+    margin-top: 90px; /* Ajusta este valor al margen superior que necesites */
   }
   
 /* header */
@@ -75,6 +75,7 @@ header {
 
 /* Ajuste exclusivo para info-table */
 .info-table .meta {
+    font-size: 100%;
     width: 100%;
     margin: 0.5em 0 0%;
     table-layout: auto; /* Permite que el th se ajuste al contenido */
