@@ -45,7 +45,7 @@ html {
     cursor: default;
 }
 
-p {
+p, li {
     font-size: 85%;
     line-height: 2;
     text-align: justify;
