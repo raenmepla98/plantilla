@@ -65,7 +65,7 @@ p, li {
 }  
 
 .content {
-    margin: 0 auto; /* Ajusta este valor al margen superior que necesites */
+     margin-top: 40px; /* Ajusta este valor al margen superior que necesites */
   }
   
 /* header */
