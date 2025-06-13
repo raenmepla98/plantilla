@@ -61,11 +61,11 @@ p, li {
     padding: 1in;
     box-sizing: border-box;
     margin: 0 auto;
-    padding: 1in;
+    padding: 1.1in;
 }  
 
 .content {
-    margin-top: 15px; /* Ajusta este valor al margen superior que necesites */
+    margin: 0 auto; /* Ajusta este valor al margen superior que necesites */
   }
   
 /* header */
