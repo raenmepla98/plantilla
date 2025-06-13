@@ -5,7 +5,7 @@ h2 {
     font-weight: bold;
     letter-spacing: 0.2em;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: uppercase;More actions
 }
 
 h3 {
@@ -65,10 +65,11 @@ p, li {
 
 .content {
     margin-top: 90px;
+    margin-bottom: 90px;
     margin-left: 1.5cm;
     margin-right: 1.5cm; /* Ajusta este valor al margen superior que necesites */
   }
-  
+
 /* header */
 header {
     margin: 0 0 3em;
@@ -82,16 +83,16 @@ header {
     margin: 0.5em 0 0%;
     table-layout: auto; /* Permite que el th se ajuste al contenido */
 }
-  
+
 .info-table .meta th {
     white-space: nowrap;      /* Evita que se divida en líneas */
     width: 1%;                /* Toma solo el ancho necesario */
 }
-  
+
 .info-table .meta td {
     width: auto;              /* Ocupa el espacio restante */
 }
-  
+
   /* Clase para centrar celdas */
 .centered {
     text-align: center;
@@ -187,7 +188,7 @@ aside h1 {
 
 
 @media print {
-   
+
     html {
         background: none;
         padding: 0;
