@@ -57,17 +57,20 @@ p, li {
     background-position: center;
     background-repeat: no-repeat;
     page-break-after: always;
-    padding: 0.5in;
+    padding: 0; /* Quita el padding aquí */
     box-sizing: border-box;
     margin: 0 auto;
-}  
+    position: relative; /* Para asegurar que el contenido respete el ancho */
+}
 
 .content {
-    margin: 1.5in auto 0 auto;/* Ajusta este valor al margen superior que necesites */
-    max-width: 6.5in;
-    padding-left: 0.2in;
-    padding-right: 0.2in;
-  }
+    width: 6.5in; /* 8.5in - 1in margen izq - 1in margen der */
+    margin: 1in auto; /* Márgenes APA */
+    background-color: rgba(255, 255, 255, 0.9); /* Opcional: para que el texto sea más legible sobre la imagen */
+    padding: 0.5in; /* Espacio interno para que el contenido no toque los bordes del cuadro */
+    box-sizing: border-box;
+    border-radius: 8px; /* Opcional: estética */
+}
   
 /* header */
 header {
