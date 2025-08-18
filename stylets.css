@@ -1,0 +1,221 @@
+/* heading */
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* table */
+table {
+    font-size: 75%;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse; /* Añadido para evitar problemas de bordes en algunas situaciones */
+}
+
+th, td {
+    border: 1px solid #000; /* Añadido un borde sólido para todas las celdas */
+    padding: 0.5em;
+    position: relative;
+    text-align: left;
+}
+
+th {
+    background: #EEE;
+}
+
+/* page */
+html {
+    font: 16px/1 'Open Sans', sans-serif;
+    overflow: auto;
+    padding: 0.5in;
+    background: #999;
+    cursor: default;
+}
+
+p, li {
+    font-size: 85%;
+    line-height: 2;
+    text-align: justify;
+}
+/* Tabla de información general */
+.info-general {
+  table-layout: auto; /* Deja que el navegador calcule los anchos según el contenido */
+  width: 100%;
+}
+
+.info-general th {
+  white-space: nowrap; /* No dividir palabras */
+  width: 25%;          /* Misma proporción para todos los th */
+}
+
+.page {
+    height: 100vh;
+    background-image: #ffffff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    page-break-after: always;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0.5in;
+}  
+
+.content {
+     margin-top: 0px;
+  }
+  
+/* header */
+header {
+    margin: 0 0 3em;
+    overflow: hidden; /* Añadido para manejar el colapso del margen superior */
+}
+
+/* Ajuste exclusivo para info-table */
+.info-table .meta {
+    font-size: 90%;
+    width: 100%;
+    margin: 0.5em 0 0%;
+    table-layout: auto; /* Permite que el th se ajuste al contenido */
+}
+  
+.info-table .meta th {
+    white-space: nowrap;      /* Evita que se divida en líneas */
+    width: 1%;                /* Toma solo el ancho necesario */
+}
+  
+.info-table .meta td {
+    width: auto;              /* Ocupa el espacio restante */
+}
+  
+  /* Clase para centrar celdas */
+.centered {
+    text-align: center;
+}
+
+header address {
+    float: left;
+    font-size: 75%;
+    font-style: normal;
+    line-height: 1.25;
+    margin: 0 1em 1em 0;
+}
+
+/* article */
+article,
+article address,
+table.meta,
+table.inventory {
+    margin: 0 0 1rem;
+    clear: both;
+}
+
+article:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+article h1 {
+    clip: rect(0 0 0 0);
+    position: absolute;
+}
+
+article address {
+    float: left;
+    font-size: 125%;
+    font-weight: bold;
+}
+
+/* table meta & balance */
+table.meta,
+table.balance {
+    float: left;
+    width: auto;
+}
+
+table.meta:after,
+table.balance:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* table meta */
+table.meta {
+    width: 100%;
+    table-layout: fixed;
+}
+table.meta th {
+    width: 100px;
+    white-space: nowrap;
+}
+
+table.meta td {
+    width: auto;
+}
+
+/* table items */
+table.inventory th {
+    font-weight: bold;
+    text-align: center;
+    width: 30%;
+}
+
+table.inventory td {
+    text-align: left;
+    display: flexbox;
+    width: 35%;
+}
+
+table { font-size: 75%; table-layout: fixed; width: 100%; }
+table { border-collapse: separate; border-spacing: 1px; }
+th, td { border-width: 1px; padding: 0.5em; position: relative; text-align: left;}
+th, td { border-radius: 0.25em; border-style: solid; }
+th { background: #EEE; border-color: #BBB; }
+td { border-color: #DDD; }
+
+/* aside */
+aside h1 {
+    border: none;
+    border-width: 0 0 1px;
+    margin: 0 0 1em;
+    border-color: #999;
+    border-bottom-style: solid;
+}
+
+
+@media print {
+   
+    html {
+        background: none;
+        padding: 0;
+    }
+    body {
+        box-shadow: none;
+        margin: 0;
+    }
+    span:empty {
+        display: none;
+    }
+    .add,
+    .cut {
+        display: none;
+    }
+}
+
+@page {
+    margin: 0;
+}
