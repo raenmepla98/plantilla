@@ -38,7 +38,7 @@ th {
 
 /* page */
 html {
-    font: 16px/1 'Open Sans', sans-serif;
+    font: 12px/1 'Open Sans', sans-serif;
     overflow: auto;
     padding: 0.5in;
     background: #999;
@@ -219,4 +219,5 @@ aside h1 {
 @page {
     margin: 0;
 }
+
 
