@@ -175,7 +175,7 @@ table.inventory th {
 }
 
 table.inventory td {
-    text-align: left;
+    text-align: center;
     display: flexbox;
     width: 35%;
 }
@@ -219,3 +219,4 @@ aside h1 {
 @page {
     margin: 0;
 }
+
