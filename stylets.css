@@ -70,7 +70,7 @@ p, li {
     page-break-after: always;
     box-sizing: border-box;
     margin: 0 auto;
-    padding: 1in;
+    padding: 0.7in 1in 1in 1in;
 }  
 
 .content {
@@ -219,6 +219,7 @@ aside h1 {
 @page {
     margin: 0;
 }
+
 
 
 
