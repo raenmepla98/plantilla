@@ -70,7 +70,7 @@ p, li {
     page-break-after: always;
     box-sizing: border-box;
     margin: 0 auto;
-    padding: 1in;
+    padding: 0.7in;
 }  
 
 .content {
@@ -182,9 +182,9 @@ table.inventory td {
 
 table { font-size: 75%; table-layout: fixed; width: 100%; }
 table { border-collapse: separate; border-spacing: 1px; }
-th, td { border-width: 1px; padding: 0.5em; position: relative; text-align: left;}
+th, td { border-width: 0.5px; padding: 0.3em; position: relative; text-align: left;}
 th, td { border-radius: 0.25em; border-style: solid; }
-th { background: #EEE; border-color: #BBB; }
+th { background: #8b6638; border-color: #BBB; }
 td { border-color: #DDD; }
 
 /* aside */
@@ -219,6 +219,7 @@ aside h1 {
 @page {
     margin: 0;
 }
+
 
 
 
