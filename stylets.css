@@ -70,7 +70,19 @@ p, li {
     page-break-after: always;
     box-sizing: border-box;
     margin: 0 auto;
-    padding: 0.8in 1in 1in 1in;
+    padding: 0.7in 1in 1in 1in;
+}
+
+.page::before {
+    content: "";
+    position: absolute;
+    inset: 0; /* ocupa toda la página */
+    background-image: url('https://acortar.link/Nyb3bW');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.1; /* 👈 aquí controlas la transparencia */
+    pointer-events: none; /* no interfiere con clics o selección */
 }  
 
 .content {
@@ -219,6 +231,7 @@ aside h1 {
 @page {
     margin: 0;
 }
+
 
 
 
