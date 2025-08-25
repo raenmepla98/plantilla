@@ -81,7 +81,7 @@ p, li {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.2; /* 👈 aquí controlas la transparencia */
+    opacity: 0.5; /* 👈 aquí controlas la transparencia */
     pointer-events: none; /* no interfiere con clics o selección */
 }  
 
@@ -231,6 +231,7 @@ aside h1 {
 @page {
     margin: 0;
 }
+
 
 
 
