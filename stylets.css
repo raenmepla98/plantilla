@@ -46,7 +46,7 @@ html {
 }
 
 p, li {
-    font-size: 85%;
+    font-size: 100%;
     line-height: 2;
     text-align: justify;
 }
@@ -192,9 +192,9 @@ table.inventory td {
     width: 35%;
 }
 
-table { font-size: 75%; table-layout: fixed; width: 100%; }
-table { border-collapse: separate; border-spacing: 1px; }
-th, td { border-width: 0.5px; padding: 0.3em; position: relative; text-align: left;}
+table { font-size: 100%; table-layout: fixed; width: 100%; }
+table { border-collapse: separate; border-spacing: 0.5px; }
+th, td { border-width: 0.5px; padding: 0.15em; position: relative; text-align: left;}
 th, td { border-radius: 0.25em; border-style: solid; }
 th { background: #8b6638; border-color: #BBB; }
 td { border-color: #DDD; }
@@ -231,6 +231,7 @@ aside h1 {
 @page {
     margin: 0;
 }
+
 
 
 
