@@ -32,13 +32,10 @@ th, td {
     text-align: left;
 }
 
-th {
-    background: #EEE;
-}
 
 /* page */
 html {
-    font: 12px/1 'Open Sans', sans-serif;
+    font: 11.5px/1 'Open Sans', sans-serif;
     overflow: auto;
     padding: 0.5in;
     background: #999;
@@ -183,7 +180,7 @@ table.meta td {
 table.inventory th {
     font-weight: bold;
     text-align: center;
-    width: 30%;
+    width: 20%;
 }
 
 table.inventory td {
@@ -196,7 +193,7 @@ table { font-size: 100%; table-layout: fixed; width: 100%; }
 table { border-collapse: separate; border-spacing: 0.5px; }
 th, td { border-width: 0.5px; padding: 0.15em; position: relative; text-align: left;}
 th, td { border-radius: 0.25em; border-style: solid; }
-th { background: #8b6638; border-color: #BBB; }
+th { border-color: #BBB; }
 td { border-color: #DDD; }
 
 /* aside */
@@ -231,6 +228,7 @@ aside h1 {
 @page {
     margin: 0;
 }
+
 
 
 
