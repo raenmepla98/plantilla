@@ -59,8 +59,9 @@ p, li {
 }
 
 .page {
+    position: relative;
     height: 100vh;
-    background-image: #ffffff;
+    background-color: #ffffff;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -78,9 +79,15 @@ p, li {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.05; /* 👈 aquí controlas la transparencia */
+    opacity: 0.05; /* transparencia */
     pointer-events: none; /* no interfiere con clics o selección */
-}  
+    z-index: 0;
+}
+
+.page *{
+    position: relative;
+    z-index: 1;
+}
 
 .content {
      margin-top: 0px;
@@ -246,3 +253,4 @@ aside h1 {
   margin-top: 20px;
   color: white;
 }
+
