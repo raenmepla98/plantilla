@@ -205,6 +205,17 @@ aside h1 {
     border-bottom-style: solid;
 }
 
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #8b6638;  /* tu color */
+  color: black;
+  font-size: 11px;
+  text-align: center;
+  padding: 6px;
+}
 
 @media print {
    
@@ -229,15 +240,8 @@ aside h1 {
     margin: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+.page .footer {
+  position: relative;   /* se comporta como parte del flujo */
+  bottom: auto;
+  margin-top: 20px;
+  color: white;
